@@ -1,0 +1,109 @@
+[host]
+{'MemoryMB': 128852, 'PowerOn': 0, 'Host_Name': u'compute03', 'CPU_Socket': 1, 'CPU_Count': 10, 'Host_UUID': 1, 'CPU_GHZ': 0, 'Host_IP': u'174.24.12.184'}
+{'MemoryMB': 96661, 'PowerOn': 1, 'Host_Name': u'compute02', 'CPU_Socket': 1, 'CPU_Count': 64, 'Host_UUID': 2, 'CPU_GHZ': 0, 'Host_IP': u'172.24.12.208'}
+{'MemoryMB': 48277, 'PowerOn': 1, 'Host_Name': u'compute01', 'CPU_Socket': 1, 'CPU_Count': 64, 'Host_UUID': 3, 'CPU_GHZ': 0, 'Host_IP': u'172.24.12.207'}
+{'MemoryMB': 128917, 'PowerOn': 1, 'Host_Name': u'compute04', 'CPU_Socket': 1, 'CPU_Count': 10, 'Host_UUID': 4, 'CPU_GHZ': 0, 'Host_IP': u'172.24.12.185'}
+{'MemoryMB': 32066, 'PowerOn': 1, 'Host_Name': u'compute05', 'CPU_Socket': 1, 'CPU_Count': 8, 'Host_UUID': 5, 'CPU_GHZ': 0, 'Host_IP': u'120.109.150.215'}
+
+[localstorage]
+{'Local_SRUUID': 1, 'Local_StorageFreeSize': 1649, 'Host_UUID': 1, 'Local_SRName': u'compute03', 'Local_StorageSize': 1649}
+{'Local_SRUUID': 2, 'Local_StorageFreeSize': 782, 'Host_UUID': 2, 'Local_SRName': u'compute02', 'Local_StorageSize': 822}
+{'Local_SRUUID': 3, 'Local_StorageFreeSize': 1589, 'Host_UUID': 3, 'Local_SRName': u'compute01', 'Local_StorageSize': 1649}
+{'Local_SRUUID': 4, 'Local_StorageFreeSize': 1649, 'Host_UUID': 4, 'Local_SRName': u'compute04', 'Local_StorageSize': 1649}
+{'Local_SRUUID': 5, 'Local_StorageFreeSize': 415, 'Host_UUID': 5, 'Local_SRName': u'compute05', 'Local_StorageSize': 415}
+
+[sharestroage]
+{'Share_SRUUID': 0, 'Share_SRTotalSize': 1863.01, 'Share_SRName': u'block01@lvm#LVM', 'Share_SRFreeSize': 856.01}
+
+[network]
+{'Network_Name': u'demo-net', 'Network_VlanID': '0', 'Network_UUID': u'45c8adbf-5367-4064-a1b5-2f083c9ac0c7'}
+{'Network_Name': u'ext-net', 'Network_VlanID': '0', 'Network_UUID': u'97da389f-d66a-484c-9314-886cf4ac91cc'}
+
+[template]
+{'Template_UUID': u'6b5b2ed1-d24d-4816-9f64-702f3ce3bc47', 'Template_DiskGB': 0, 'Template_Name': u'win10', 'Template_MemoryMB': 0, 'Template_OSType': '', 'Template_CPUNUM': 0}
+{'Template_UUID': u'46463f92-00d4-4837-99fa-037aa9b027cb', 'Template_DiskGB': 0, 'Template_Name': u'ubuntu_14.04_4_4_20', 'Template_MemoryMB': 0, 'Template_OSType': '', 'Template_CPUNUM': 0}
+{'Template_UUID': u'3017d6dc-29ef-43bf-a6fd-62dc9815ca74', 'Template_DiskGB': 0, 'Template_Name': u'8_16_win10', 'Template_MemoryMB': 0, 'Template_OSType': '', 'Template_CPUNUM': 0}
+{'Template_UUID': u'0d548087-b871-4271-9691-2918106387cf', 'Template_DiskGB': 0, 'Template_Name': u'CentOS6.8Image', 'Template_MemoryMB': 0, 'Template_OSType': '', 'Template_CPUNUM': 0}
+{'Template_UUID': u'ef7b1eee-21fd-4aa9-be56-b2bc7a804559', 'Template_DiskGB': 0, 'Template_Name': u'win10_4_4_50', 'Template_MemoryMB': 0, 'Template_OSType': u'Windows', 'Template_CPUNUM': 0}
+{'Template_UUID': u'fbce8a2b-02fb-47b8-9d2f-9ddeda2ed75d', 'Template_DiskGB': 0, 'Template_Name': u'cirros-0.3.4-x86_64', 'Template_MemoryMB': 0, 'Template_OSType': u'linux', 'Template_CPUNUM': 0}
+
+[vm]
+{'Template_UUID': ' ', 'VM_IP': [u'192.168.1.19'], 'VM_OSType': ' ', 'KeyPair_uuid': None, 'fv_uuid': u'e2685c3f-6866-4ae9-94a5-b93711ea5b0c', 'VM_CPUNum': 4, 'VM_UUID': u'da0daf75-04a7-44ec-8527-0e6a4f050020', 'VM_Name': u'999', 'VM_Status': 1, 'VM_MemoryMB': 4096, 'SRUUID': 0, 'Host_UUID': u'compute01'}
+{'Template_UUID': u'46463f92-00d4-4837-99fa-037aa9b027cb', 'VM_IP': [u'192.168.1.3', u'140.128.98.40'], 'VM_OSType': ' ', 'KeyPair_uuid': None, 'fv_uuid': u'e2685c3f-6866-4ae9-94a5-b93711ea5b0c', 'VM_CPUNum': 4, 'VM_UUID': u'82116da5-14d3-4d43-bd55-c4f6cf10230f', 'VM_Name': u'JY-master', 'VM_Status': 1, 'VM_MemoryMB': 4096, 'SRUUID': 0, 'Host_UUID': u'compute01'}
+{'Template_UUID': u'46463f92-00d4-4837-99fa-037aa9b027cb', 'VM_IP': [u'192.168.1.5'], 'VM_OSType': ' ', 'KeyPair_uuid': None, 'fv_uuid': u'e2685c3f-6866-4ae9-94a5-b93711ea5b0c', 'VM_CPUNum': 4, 'VM_UUID': u'b65b9b21-db08-4a5a-adf5-839592cb010d', 'VM_Name': u'JY-node02', 'VM_Status': 1, 'VM_MemoryMB': 4096, 'SRUUID': 0, 'Host_UUID': u'compute02'}
+{'Template_UUID': u'46463f92-00d4-4837-99fa-037aa9b027cb', 'VM_IP': [u'192.168.1.29'], 'VM_OSType': ' ', 'KeyPair_uuid': None, 'fv_uuid': u'e2685c3f-6866-4ae9-94a5-b93711ea5b0c', 'VM_CPUNum': 4, 'VM_UUID': u'b218eb93-9caf-4df0-81e2-303d76dcc3b6', 'VM_Name': u'JY-node01', 'VM_Status': 1, 'VM_MemoryMB': 4096, 'SRUUID': 0, 'Host_UUID': u'compute01'}
+{'Template_UUID': ' ', 'VM_IP': [u'192.168.1.9', u'192.168.1.13', u'140.128.98.41'], 'VM_OSType': ' ', 'KeyPair_uuid': None, 'fv_uuid': u'e2685c3f-6866-4ae9-94a5-b93711ea5b0c', 'VM_CPUNum': 4, 'VM_UUID': u'3db3bc3c-1861-4e21-a204-8b07cb21a217', 'VM_Name': u'PC', 'VM_Status': 1, 'VM_MemoryMB': 4096, 'SRUUID': 0, 'Host_UUID': u'compute02'}
+
+[vmdisk]
+{'VMDisk_device': u'/dev/vda', 'VMDisk_UUID': u'a0342f29-0a4c-4395-806e-d8eca8fbdc66', 'VMDisk_SizeGB': 1, 'VMDisk_Name': u'a0342f29-0a4c-4395-806e-d8eca8fbdc66', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': u'da0daf75-04a7-44ec-8527-0e6a4f050020'}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'90456f06-23df-47e8-be11-4f188931e951', 'VMDisk_SizeGB': 20, 'VMDisk_Name': u'volumes_joe-170515-7_0', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'f9ad2ccf-eef1-47d2-b6d0-e13cdced29be', 'VMDisk_SizeGB': 2, 'VMDisk_Name': u'f9ad2ccf-eef1-47d2-b6d0-e13cdced29be', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'af86dbf3-2015-4140-9e28-91c4d544d013', 'VMDisk_SizeGB': 30, 'VMDisk_Name': u'1494474940_flavor', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'cdbbf596-5976-4f0d-8893-b305a0b574c6', 'VMDisk_SizeGB': 30, 'VMDisk_Name': u'1494474882_flavor', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'286b943a-7e9a-47f8-bb5a-046d3b3d5295', 'VMDisk_SizeGB': 30, 'VMDisk_Name': u'1494474813_flavor', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'9912ede0-79d7-45f2-bdc8-fe7789afe65d', 'VMDisk_SizeGB': 54, 'VMDisk_Name': u'9912ede0-79d7-45f2-bdc8-fe7789afe65d', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'a92b0673-1968-44df-981b-c6f6cb90cddd', 'VMDisk_SizeGB': 54, 'VMDisk_Name': u'a92b0673-1968-44df-981b-c6f6cb90cddd', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'2c7fa782-0931-49db-a1d4-d5a862af19fc', 'VMDisk_SizeGB': 54, 'VMDisk_Name': u'2c7fa782-0931-49db-a1d4-d5a862af19fc', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'5b83f891-c125-47a0-86ff-578ad462b669', 'VMDisk_SizeGB': 30, 'VMDisk_Name': u'5b83f891-c125-47a0-86ff-578ad462b669', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'3228034c-d8a9-48d0-a1c0-ba1d77763c81', 'VMDisk_SizeGB': 10, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'038cce0f-6db9-41ec-8afb-a1eda16b3ea6', 'VMDisk_SizeGB': 2, 'VMDisk_Name': u'038cce0f-6db9-41ec-8afb-a1eda16b3ea6', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'64ab0131-fb62-465f-8b75-f76e44ca4aef', 'VMDisk_SizeGB': 10, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'bf6f7d67-2e7d-42c8-bb14-34afb976a3d7', 'VMDisk_SizeGB': 10, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'38f6747e-e098-4ca8-b191-4933b4ccaec1', 'VMDisk_SizeGB': 10, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'd58280ea-3985-43ce-a625-62a310da31fc', 'VMDisk_SizeGB': 20, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'0a82407a-183a-49f8-9257-d9eacddd1887', 'VMDisk_SizeGB': 20, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'b712e749-9c91-4e82-b344-c2334d8ea702', 'VMDisk_SizeGB': 20, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'a5ace94c-fe86-475b-8f7d-56cdc7446fce', 'VMDisk_SizeGB': 20, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'cf6b2a97-017e-4e11-af10-f8c32abf1fe8', 'VMDisk_SizeGB': 10, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'09e3806a-32a2-41ca-92df-9f5a9c0a7b64', 'VMDisk_SizeGB': 10, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'734041ad-5ceb-44b7-8e16-6480b7940c4f', 'VMDisk_SizeGB': 10, 'VMDisk_Name': u'cirros-0.3.4-x86_64', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'0365bf78-160a-493b-be27-3f8123e8822a', 'VMDisk_SizeGB': 15, 'VMDisk_Name': u'yt++', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'49e243e4-8f7a-4985-b4ae-923873b27da6', 'VMDisk_SizeGB': 15, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': u'/dev/vda', 'VMDisk_UUID': u'defb6a46-30f6-4100-8abc-8d14f5eb7ef5', 'VMDisk_SizeGB': 30, 'VMDisk_Name': u'defb6a46-30f6-4100-8abc-8d14f5eb7ef5', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': u'3db3bc3c-1861-4e21-a204-8b07cb21a217'}
+{'VMDisk_device': u'/dev/vda', 'VMDisk_UUID': u'cd29f6bb-5b64-4022-9893-30b1d37f0cda', 'VMDisk_SizeGB': 10, 'VMDisk_Name': u'volumes_yt', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': u'8ac80aca-3aa8-47ed-b3f4-bded545348d6'}
+{'VMDisk_device': ' ', 'VMDisk_UUID': u'd35e6c3f-52e8-46a8-a718-809830f7de34', 'VMDisk_SizeGB': 1, 'VMDisk_Name': u'd35e6c3f-52e8-46a8-a718-809830f7de34', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': ' '}
+{'VMDisk_device': u'/dev/vda', 'VMDisk_UUID': u'e1403eff-0beb-45ec-bee0-da7aad9ebe0d', 'VMDisk_SizeGB': 5, 'VMDisk_Name': u'volumes_nova-vol-test1', 'SRUUID': u'block01@lvm#LVM', 'VM_UUID': u'91a97cc1-4349-4a27-a7ce-62d23be30a71'}
+
+[vmnetwork]
+{'Subnet_uuid': [[u'9950c209-2c27-43c8-9e10-2b331ca9d225']], 'sg_uuid': [], 'Vif_UUID': [u'a10f97c9-70d4-4f4e-a638-34fa945e8dda'], 'VM_UUID': u'da0daf75-04a7-44ec-8527-0e6a4f050020', 'Network_UUID': [u'45c8adbf-5367-4064-a1b5-2f083c9ac0c7'], 'vif_device': ['1'], 'vif_IP': [[u'192.168.1.19']], 'vif_MAC': [u'fa:16:3e:07:05:f3']}
+{'Subnet_uuid': [[u'9950c209-2c27-43c8-9e10-2b331ca9d225']], 'sg_uuid': [u'14d172c9-ac1c-44be-91b5-9e71df48cc2b', u'950831aa-0e71-40c3-96a0-7cd5e86f69d3', u'756b9399-eae3-4c7a-a23b-f3761be8e799'], 'Vif_UUID': [u'7d705cd1-da11-4dc6-b841-7082ac7eb12a'], 'VM_UUID': u'82116da5-14d3-4d43-bd55-c4f6cf10230f', 'Network_UUID': [u'45c8adbf-5367-4064-a1b5-2f083c9ac0c7'], 'vif_device': ['1'], 'vif_IP': [[u'192.168.1.3', u'140.128.98.40']], 'vif_MAC': [u'fa:16:3e:09:da:e1']}
+{'Subnet_uuid': [[u'9950c209-2c27-43c8-9e10-2b331ca9d225']], 'sg_uuid': [u'756b9399-eae3-4c7a-a23b-f3761be8e799', u'950831aa-0e71-40c3-96a0-7cd5e86f69d3'], 'Vif_UUID': [u'e50d5d56-abb0-4b94-a75b-4591b52cc9d8'], 'VM_UUID': u'b65b9b21-db08-4a5a-adf5-839592cb010d', 'Network_UUID': [u'45c8adbf-5367-4064-a1b5-2f083c9ac0c7'], 'vif_device': ['1'], 'vif_IP': [[u'192.168.1.5']], 'vif_MAC': [u'fa:16:3e:da:c1:a2']}
+{'Subnet_uuid': [[u'9950c209-2c27-43c8-9e10-2b331ca9d225']], 'sg_uuid': [u'756b9399-eae3-4c7a-a23b-f3761be8e799', u'950831aa-0e71-40c3-96a0-7cd5e86f69d3'], 'Vif_UUID': [u'b4a0cc74-3fec-4d5e-914e-428d9cc21289'], 'VM_UUID': u'b218eb93-9caf-4df0-81e2-303d76dcc3b6', 'Network_UUID': [u'45c8adbf-5367-4064-a1b5-2f083c9ac0c7'], 'vif_device': ['1'], 'vif_IP': [[u'192.168.1.29']], 'vif_MAC': [u'fa:16:3e:dc:48:4b']}
+{'Subnet_uuid': [[u'9950c209-2c27-43c8-9e10-2b331ca9d225']], 'sg_uuid': [u'14d172c9-ac1c-44be-91b5-9e71df48cc2b', u'950831aa-0e71-40c3-96a0-7cd5e86f69d3', u'756b9399-eae3-4c7a-a23b-f3761be8e799', u'756b9399-eae3-4c7a-a23b-f3761be8e799'], 'Vif_UUID': [u'5874e8e7-e529-4598-9521-07f30ef9284c', u'a067c844-c130-49fb-b254-f1dc05fda2ec'], 'VM_UUID': u'3db3bc3c-1861-4e21-a204-8b07cb21a217', 'Network_UUID': [u'45c8adbf-5367-4064-a1b5-2f083c9ac0c7'], 'vif_device': ['1'], 'vif_IP': [[u'192.168.1.9', u'192.168.1.13', u'140.128.98.41']], 'vif_MAC': [u'fa:16:3e:46:77:ae', u'fa:16:3e:63:89:0e']}
+
+[vmsnapshot]
+{'minDisk': 20, 'SnapShot_Date': u'2017-05-07T05:39:10Z', 'SnapShot_Name': u'2', 'VM_UUID': u'8be448bb-dfb5-4258-8baf-e0f60eb2eb3c', 'SnapShot_UUID': u'72724119-aa62-49e7-b217-d958159fa7f8'}
+{'minDisk': 20, 'SnapShot_Date': u'2017-05-07T05:33:19Z', 'SnapShot_Name': u'testt', 'VM_UUID': u'8be448bb-dfb5-4258-8baf-e0f60eb2eb3c', 'SnapShot_UUID': u'3f6f094a-b79b-41cb-9e63-89042487276b'}
+{'minDisk': 20, 'SnapShot_Date': u'2017-04-24T13:26:44Z', 'SnapShot_Name': u'INF34_06', 'VM_UUID': u'e14e9a85-1d38-4717-b518-8e48a570690e', 'SnapShot_UUID': u'e3eddde7-ff98-4ced-85e5-b8bdda72a0a5'}
+{'minDisk': 50, 'SnapShot_Date': u'2017-04-03T13:08:55Z', 'SnapShot_Name': u'yt', 'VM_UUID': u'8e3431ec-ec37-4d1e-9730-b0668b97b52f', 'SnapShot_UUID': u'b09de9c9-c780-4c42-a0bb-4c673c8c94a2'}
+{'minDisk': 20, 'SnapShot_Date': u'2017-03-23T11:34:36Z', 'SnapShot_Name': u'INF34_01_20170323', 'VM_UUID': u'bb061d91-9b49-495c-bcca-e6e7e5854eb3', 'SnapShot_UUID': u'8db275d9-2c23-4679-be23-410e971a473f'}
+{'minDisk': 20, 'SnapShot_Date': u'2017-03-15T03:23:08Z', 'SnapShot_Name': u'INF34-01-0315', 'VM_UUID': u'607db792-ad11-4cb8-9b7f-4f0d260b0847', 'SnapShot_UUID': u'8083523e-12b9-4f41-b5d5-132b49b6417a'}
+{'minDisk': 20, 'SnapShot_Date': u'2017-03-15T03:22:56Z', 'SnapShot_Name': u'INF34-06-0315', 'VM_UUID': u'e14e9a85-1d38-4717-b518-8e48a570690e', 'SnapShot_UUID': u'58c70019-00a9-4b84-8d22-62d7d57935a4'}
+{'minDisk': 20, 'SnapShot_Date': u'2017-03-10T09:36:28Z', 'SnapShot_Name': u'test-shelved', 'VM_UUID': u'ddf4592d-4e03-46cd-a864-17c21a129531', 'SnapShot_UUID': u'8cf68943-e790-49f3-81b8-7efc1a8d6479'}
+
+[flavors]
+{'fv_name': 'gpu_flavor', 'fv_disk': '50', 'fv_uuid': '008143e6-0ffe-4d27-b91e-13fef72f22d9', 'fv_cpu': '4', 'fv_memory': '4096'}
+{'fv_name': 'compute04', 'fv_disk': '50', 'fv_uuid': '0e88ebc1-1e3c-405d-b03c-ea26a50e2481', 'fv_cpu': '16', 'fv_memory': '32768'}
+{'fv_name': '123', 'fv_disk': '10', 'fv_uuid': '20ef3d07-ce9d-4156-b577-09b91b2d4e86', 'fv_cpu': '1', 'fv_memory': '1024'}
+{'fv_name': 'compute03', 'fv_disk': '50', 'fv_uuid': '474455b3-4d9c-45d5-89b7-200f74031cb4', 'fv_cpu': '8', 'fv_memory': '16384'}
+{'fv_name': 'JoeFlavor', 'fv_disk': '20', 'fv_uuid': '66b6d886-be78-4090-bc93-1f78f004a2c6', 'fv_cpu': '2', 'fv_memory': '2048'}
+{'fv_name': 'k2', 'fv_disk': '50', 'fv_uuid': '7def6525-1576-4af8-a5f2-2f38f0633c7b', 'fv_cpu': '4', 'fv_memory': '8192'}
+{'fv_name': '4_4_50', 'fv_disk': '50', 'fv_uuid': '89210052-36fb-4c9b-a0ac-080b50616a63', 'fv_cpu': '4', 'fv_memory': '4096'}
+{'fv_name': 'k620', 'fv_disk': '20', 'fv_uuid': 'b7fcae86-6bb1-4d33-b2dc-e160dd3fd4b7', 'fv_cpu': '1', 'fv_memory': '2048'}
+{'fv_name': '4_4_20', 'fv_disk': '20', 'fv_uuid': 'e2685c3f-6866-4ae9-94a5-b93711ea5b0c', 'fv_cpu': '4', 'fv_memory': '4096'}
+
+[SecurityGroup]
+{'rules': [{u'from_port': 389, u'group': {}, u'ip_protocol': u'tcp', u'to_port': 389, u'parent_group_id': u'14d172c9-ac1c-44be-91b5-9e71df48cc2b', u'ip_range': {u'cidr': u'0.0.0.0/0'}, u'id': u'4cc8c626-248c-4aa0-a3da-8ff997662c32'}, {u'from_port': 80, u'group': {}, u'ip_protocol': u'tcp', u'to_port': 80, u'parent_group_id': u'14d172c9-ac1c-44be-91b5-9e71df48cc2b', u'ip_range': {u'cidr': u'0.0.0.0/0'}, u'id': u'4ee8dd2a-2694-423b-8ac4-e9aeedf17676'}, {u'from_port': 3306, u'group': {}, u'ip_protocol': u'tcp', u'to_port': 3306, u'parent_group_id': u'14d172c9-ac1c-44be-91b5-9e71df48cc2b', u'ip_range': {u'cidr': u'0.0.0.0/0'}, u'id': u'abfa1f0c-8abf-46bb-a027-d56447bad77c'}, {u'from_port': 443, u'group': {}, u'ip_protocol': u'tcp', u'to_port': 443, u'parent_group_id': u'14d172c9-ac1c-44be-91b5-9e71df48cc2b', u'ip_range': {u'cidr': u'0.0.0.0/0'}, u'id': u'fe89428d-2eb6-45be-a20c-d15369dda2fa'}], 'id': u'14d172c9-ac1c-44be-91b5-9e71df48cc2b', 'name': u'LAMP'}
+{'rules': [{u'from_port': -1, u'group': {}, u'ip_protocol': u'icmp', u'to_port': -1, u'parent_group_id': u'756b9399-eae3-4c7a-a23b-f3761be8e799', u'ip_range': {u'cidr': u'0.0.0.0/0'}, u'id': u'2a011fb9-2be6-47ad-a45b-23266f07ba23'}, {u'from_port': None, u'group': {u'tenant_id': u'ce8ce15113d4490588563ee518696956', u'name': u'default'}, u'ip_protocol': None, u'to_port': None, u'parent_group_id': u'756b9399-eae3-4c7a-a23b-f3761be8e799', u'ip_range': {}, u'id': u'76497e32-ec8d-4108-9e29-f3bcc4eef063'}, {u'from_port': None, u'group': {u'tenant_id': u'ce8ce15113d4490588563ee518696956', u'name': u'default'}, u'ip_protocol': None, u'to_port': None, u'parent_group_id': u'756b9399-eae3-4c7a-a23b-f3761be8e799', u'ip_range': {}, u'id': u'e3058073-8c45-4f5d-abca-17e7ea7c87e7'}], 'id': u'756b9399-eae3-4c7a-a23b-f3761be8e799', 'name': u'default'}
+{'rules': [{u'from_port': 22, u'group': {}, u'ip_protocol': u'tcp', u'to_port': 22, u'parent_group_id': u'950831aa-0e71-40c3-96a0-7cd5e86f69d3', u'ip_range': {u'cidr': u'0.0.0.0/0'}, u'id': u'342023bd-6349-4277-ab2f-57b16e597c9c'}], 'id': u'950831aa-0e71-40c3-96a0-7cd5e86f69d3', 'name': u'ssh'}
+
+[Subnet]
+{'Network_UUID': u'97da389f-d66a-484c-9314-886cf4ac91cc', 'Subnet_uuid': u'66d0787e-c88c-4cb1-9808-f132eed2e4e3', 'Subnet_end': u'140.128.98.50', 'Subnet_name': u'ext-subnet', 'Subnet_start': u'140.128.98.40', 'cidr': u'140.128.98.0/26'}
+{'Network_UUID': u'45c8adbf-5367-4064-a1b5-2f083c9ac0c7', 'Subnet_uuid': u'9950c209-2c27-43c8-9e10-2b331ca9d225', 'Subnet_end': u'192.168.1.254', 'Subnet_name': u'demo-subnet', 'Subnet_start': u'192.168.1.2', 'cidr': u'192.168.1.0/24'}
+
+[keypairs]
+{'KeyPair_publickey': u'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEhC6kixx1PMyIEc4/gkY4lNx/FL5nMoPSSiK0gca5iGeoOiI6Dn2MvqnTAget6r/+8zmycV3LuSM/WR5ccZB+uxWcu/88yuwfairuz4YOTY/Ytq5s9DrUR+MUvd9OlA80HcXX2cskkNrInnToY+NHQJwNO/sFxA7u+Z2R1SBWaO+KcEZF87wrfbS4omsxXNhpG4NrALHk6Ft10Pd/MEcr/jRo/aY2nDfYcjOylEMhdqLE9+TW4YHBsf11gJpVCBf9lxhzcrfWfkKZo2y79/SNNDgqv6D9UOZFR3LPcjPfc1+4s/Pr6MfDso09Kyv5rLZcH8wt1J/QErNZ33gswO4l Generated-by-Nova', 'KeyPair_uuid': u'123', 'KeyPair_name': u'123'}
+{'KeyPair_publickey': u'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDotjjf7XE5VmbBeYayPk9mYQZPC8cCLumJmUf/DOBxE6g/nlB8vkL8X2XPn6aEf7bDwuFMIyfgbTU0qsPLhyRDf2v7nBl/e1mNbqyIl1FuRZi+yfVsgoRzlk87e0U/ILtkI97gXwoPansv9pgTI6nidphghher+QZJ0v9ZYZUO9QRr/yLMGAY2lp9Yr2FzTAEZka6alAM9bFoFkbBHzQa9isHcG+ewD2Ll37UfHDRUMLyCsOFGgWU+wxN4zNPJKKq7sDLWYwDjmhDb0bpi5cHa4KS4+SXCIA1yQlg9tVk7/eQWFZTJoVoLzO/F4TgwHuOWDRClzwmbw7n1FIkkssFV Generated-by-Nova', 'KeyPair_uuid': u'JoeTestKeyPair', 'KeyPair_name': u'JoeTestKeyPair'}
+{'KeyPair_publickey': u'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCj5c21u9L38w8FUXeKA58RlLTCOibiRm5D7kkDPB0GRXy2w2uZMnQGpHBeM2ouYfYOIMZFQ9u1dUA08dU/NspoJouyMW32bRrdXgya0uC2DjeulJN9C/A9YKNgVK95gxZOB9C0QxkEZ21zCfO1Dd9L8B6cYcJD6WSHkdOXRkOQM2ZZc+uS3BfixltrcL3VoRTRX6tBwhH2tMVRXPjhA2JvaKlSG3BSOHrelKxjJTTdMtNdf+Crtt68v1I08ysnehoxgjXMTZsGYpwD38rnRAqdvR4sQu/HVENfev7D5GwTW+1O0xJz1IfKpPiHbdAFZP83OZqiAdyCMaalcVkKT6eR Generated-by-Nova', 'KeyPair_uuid': u'ytyt', 'KeyPair_name': u'ytyt'}
+
+[End]

@@ -1,0 +1,20 @@
+[vm]
+{'VM_Name': u'1483599141prepare_prepareVM', 'VM_IP': [u'192.168.1.11'], 'VM_UUID': u'3cbce003-21e0-4a16-afa6-3d22d820d33b', 'Host_UUID': u'db529269b7364e4bf2155b9be2eb4e81ef12eb7737c8345d59aa8d5d', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'prepare', 'VM_IP': [u'192.168.1.20'], 'VM_UUID': u'4979feb7-56fc-405c-87cb-dc63e54924f2', 'Host_UUID': u'7396e9820b109027bfda468294f586d0b72d7f14cb4f0ff3b23f9c8a', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'migration_test', 'VM_IP': [u'192.168.1.14'], 'VM_UUID': u'706b2e81-429b-4683-842f-32fcf4e905a2', 'Host_UUID': u'4f5e91f5dc93d1ea1ef25c5fb9add03e47e47440328e074859d8c1b6', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'windows10', 'VM_IP': [u'192.168.1.18'], 'VM_UUID': u'e06a89a1-2182-43fc-a20d-98b5bebd6f8d', 'Host_UUID': u'4f5e91f5dc93d1ea1ef25c5fb9add03e47e47440328e074859d8c1b6', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'INF34-HW', 'VM_IP': [u'192.168.1.13'], 'VM_UUID': u'5a38da28-d898-478c-b5d7-6d90d678625a', 'Host_UUID': u'7396e9820b109027bfda468294f586d0b72d7f14cb4f0ff3b23f9c8a', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'mount', 'VM_IP': [u'192.168.1.19', u'140.128.98.50'], 'VM_UUID': u'94d25fff-a988-4864-a903-436fec5735b3', 'Host_UUID': u'7396e9820b109027bfda468294f586d0b72d7f14cb4f0ff3b23f9c8a', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'1', 'VM_IP': [u'192.168.1.9'], 'VM_UUID': u'f7c6157e-71a1-4f40-a5e7-404767f9acd1', 'Host_UUID': u'7396e9820b109027bfda468294f586d0b72d7f14cb4f0ff3b23f9c8a', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'test_vm', 'VM_IP': [u'192.168.1.15'], 'VM_UUID': u'2dd73139-0a87-4c26-bc81-3000b308a4c8', 'Host_UUID': u'db529269b7364e4bf2155b9be2eb4e81ef12eb7737c8345d59aa8d5d', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'INF34_chris', 'VM_IP': [u'192.168.1.5', u'140.128.98.48'], 'VM_UUID': u'1ae737c3-4cfc-49b0-aa64-4abadbdc35bb', 'Host_UUID': u'4f5e91f5dc93d1ea1ef25c5fb9add03e47e47440328e074859d8c1b6', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'INF33-01', 'VM_IP': [u'192.168.1.10', u'140.128.98.41'], 'VM_UUID': u'ccf5e48c-7220-40fe-8079-285d5d84444e', 'Host_UUID': u'7396e9820b109027bfda468294f586d0b72d7f14cb4f0ff3b23f9c8a', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'INF33-05', 'VM_IP': [u'192.168.1.6', u'140.128.98.42'], 'VM_UUID': u'3a6850fc-0127-4314-99bf-305eea7c465b', 'Host_UUID': u'4f5e91f5dc93d1ea1ef25c5fb9add03e47e47440328e074859d8c1b6', 'VM_Status': u'ACTIVE'}
+[END]
+[vm]
+{'VM_Name': u'1489516225test_prepareVM', 'VM_IP': [u'192.168.1.10'], 'VM_UUID': u'cc488017-2bad-4d5c-b662-5180cce96175', 'Host_UUID': u'e589e8bb314b8ac2524e76222afabc094e03d24f762fa53388530096', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'test', 'VM_IP': [u'192.168.1.12'], 'VM_UUID': u'7494d486-0524-43d6-8171-d4c2db1b09a0', 'Host_UUID': u'efe171fb346d9bf2762120dd318be3c2ef06dafeddb265cf987eebac', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'INF34_06', 'VM_IP': [u'192.168.1.9', u'140.128.98.48'], 'VM_UUID': u'e14e9a85-1d38-4717-b518-8e48a570690e', 'Host_UUID': u'efe171fb346d9bf2762120dd318be3c2ef06dafeddb265cf987eebac', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'test', 'VM_IP': [u'192.168.1.11'], 'VM_UUID': u'2fa6371f-a799-4f70-a20b-a751c7ab9f83', 'Host_UUID': u'efe171fb346d9bf2762120dd318be3c2ef06dafeddb265cf987eebac', 'VM_Status': u'ACTIVE'}
+{'VM_Name': u'INF34_01', 'VM_IP': [u'192.168.1.14', u'140.128.98.50'], 'VM_UUID': u'607db792-ad11-4cb8-9b7f-4f0d260b0847', 'Host_UUID': u'efe171fb346d9bf2762120dd318be3c2ef06dafeddb265cf987eebac', 'VM_Status': u'ACTIVE'}
+[END]
