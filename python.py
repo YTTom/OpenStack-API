@@ -6,6 +6,9 @@ import io
 import json 
 import time
 
+
+
+
 # #所需參數參數
 ServerIp = '140.128.101.205'
 ServerAccount = 'admin'
